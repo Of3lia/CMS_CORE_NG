@@ -4,6 +4,8 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using DataService;
+using FunctionalService;
 using LoggingService;
 using Microsoft.AspNetCore.Components.Routing;
 using Microsoft.AspNetCore.Hosting;
@@ -12,6 +14,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Serilog;
+using Serilog.Sinks.SystemConsole.Themes;
 
 namespace CMS_CORE_NG
 {
@@ -23,18 +26,21 @@ namespace CMS_CORE_NG
             
             using (var scope = host.Services.CreateScope())
             {
+                var services = scope.ServiceProvider;
                 try
                 {
-                    int zero = 0;
-                    int result = 100 / zero;
+                    var context = services.GetRequiredService<ApplicationDbContext>();
+                    var dpContext = services.GetRequiredService<DataProtectionKeysContext>();
+                    var functionSvc = services.GetRequiredService<IFunctionalSvc>();
+
+                    DbContextInitializer.Initialize(dpContext, context, functionSvc).Wait();
                 }
-                catch(DivideByZeroException ex)
+                catch (Exception ex)
                 {
                     Log.Error("An error occurred while seeding the database {Error} {StackTrace} {InnerException} {Source}",
-                        ex.Message, ex.StackTrace, ex.InnerException, ex.Source);
+                    ex.Message, ex.StackTrace, ex.InnerException, ex.Source);
                 }
             }
-            
 
             host.Run();
         }
@@ -53,6 +59,7 @@ namespace CMS_CORE_NG
                     .Enrich.WithProperty("UserName", Environment.UserName)
                     .Enrich.WithProperty("ProcessId", Process.GetCurrentProcess().Id)
                     .Enrich.WithProperty("ProcessName", Process.GetCurrentProcess().ProcessName)
+                    .WriteTo.Console(theme: AnsiConsoleTheme.None)
                     .WriteTo.File(formatter: new CustomTextFormatter(), path: Path.Combine(hostingContext
                         .HostingEnvironment.ContentRootPath + $"{Path.DirectorySeparatorChar}Logs" +
                         $"{Path.DirectorySeparatorChar}", $"load_error{DateTime.Now:yyyyMMdd}.txt"))

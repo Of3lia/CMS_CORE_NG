@@ -1,0 +1,14 @@
+E:\Visual_Studio_Projects\CMS_CORE_NG\FunctionalService\bin\Debug\netcoreapp3.1\FunctionalService.deps.json
+E:\Visual_Studio_Projects\CMS_CORE_NG\FunctionalService\bin\Debug\netcoreapp3.1\FunctionalService.dll
+E:\Visual_Studio_Projects\CMS_CORE_NG\FunctionalService\bin\Debug\netcoreapp3.1\FunctionalService.pdb
+E:\Visual_Studio_Projects\CMS_CORE_NG\FunctionalService\bin\Debug\netcoreapp3.1\LoggingService.dll
+E:\Visual_Studio_Projects\CMS_CORE_NG\FunctionalService\bin\Debug\netcoreapp3.1\ModelService.dll
+E:\Visual_Studio_Projects\CMS_CORE_NG\FunctionalService\bin\Debug\netcoreapp3.1\LoggingService.pdb
+E:\Visual_Studio_Projects\CMS_CORE_NG\FunctionalService\bin\Debug\netcoreapp3.1\ModelService.pdb
+E:\Visual_Studio_Projects\CMS_CORE_NG\FunctionalService\obj\Debug\netcoreapp3.1\FunctionalService.csprojAssemblyReference.cache
+E:\Visual_Studio_Projects\CMS_CORE_NG\FunctionalService\obj\Debug\netcoreapp3.1\FunctionalService.AssemblyInfoInputs.cache
+E:\Visual_Studio_Projects\CMS_CORE_NG\FunctionalService\obj\Debug\netcoreapp3.1\FunctionalService.AssemblyInfo.cs
+E:\Visual_Studio_Projects\CMS_CORE_NG\FunctionalService\obj\Debug\netcoreapp3.1\FunctionalService.csproj.CoreCompileInputs.cache
+E:\Visual_Studio_Projects\CMS_CORE_NG\FunctionalService\obj\Debug\netcoreapp3.1\FunctionalService.csproj.CopyComplete
+E:\Visual_Studio_Projects\CMS_CORE_NG\FunctionalService\obj\Debug\netcoreapp3.1\FunctionalService.dll
+E:\Visual_Studio_Projects\CMS_CORE_NG\FunctionalService\obj\Debug\netcoreapp3.1\FunctionalService.pdb

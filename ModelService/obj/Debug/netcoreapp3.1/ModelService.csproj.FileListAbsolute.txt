@@ -1,0 +1,8 @@
+E:\Visual_Studio_Projects\CMS_CORE_NG\ModelService\bin\Debug\netcoreapp3.1\ModelService.deps.json
+E:\Visual_Studio_Projects\CMS_CORE_NG\ModelService\bin\Debug\netcoreapp3.1\ModelService.dll
+E:\Visual_Studio_Projects\CMS_CORE_NG\ModelService\bin\Debug\netcoreapp3.1\ModelService.pdb
+E:\Visual_Studio_Projects\CMS_CORE_NG\ModelService\obj\Debug\netcoreapp3.1\ModelService.AssemblyInfoInputs.cache
+E:\Visual_Studio_Projects\CMS_CORE_NG\ModelService\obj\Debug\netcoreapp3.1\ModelService.AssemblyInfo.cs
+E:\Visual_Studio_Projects\CMS_CORE_NG\ModelService\obj\Debug\netcoreapp3.1\ModelService.csproj.CoreCompileInputs.cache
+E:\Visual_Studio_Projects\CMS_CORE_NG\ModelService\obj\Debug\netcoreapp3.1\ModelService.dll
+E:\Visual_Studio_Projects\CMS_CORE_NG\ModelService\obj\Debug\netcoreapp3.1\ModelService.pdb

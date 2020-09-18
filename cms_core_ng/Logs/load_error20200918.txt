@@ -1,0 +1,58 @@
+-------------------------------------------------------------
+Timestap - 18/9/2020 11:51:04 +02:00 | Level - Warning |
+-------------------------------------------------------------
+userId : "f5e49750-e055-460e-b0eb-7c097ad4841f"
+errors : "DuplicateUserName;DuplicateEmail"
+EventId : { Id: 13 }
+SourceContext : "Microsoft.AspNetCore.Identity.UserManager"
+Application : "cms_core_ng"
+MachineName : "LAPTOP-J6LJ01O8"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.7"
+UserName : "ofeli"
+ProcessId : 4688
+ProcessName : "iisexpress"
+------------------------------------------------------------------
+-------------------------------------------------------------
+Timestap - 18/9/2020 11:51:04 +02:00 | Level - Error |
+-------------------------------------------------------------
+Error : "Microsoft.AspNetCore.Identity.IdentityError,Microsoft.AspNetCore.Identity.IdentityError"
+Application : "cms_core_ng"
+MachineName : "LAPTOP-J6LJ01O8"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.7"
+UserName : "ofeli"
+ProcessId : 4688
+ProcessName : "iisexpress"
+------------------------------------------------------------------
+-------------------------------------------------------------
+Timestap - 18/9/2020 11:53:05 +02:00 | Level - Error |
+-------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "80000020-0001-ff00-b63f-84710c7967bb"
+RequestPath : "/"
+SpanId : "|3cc81c80-477318949e9a7100."
+TraceId : "3cc81c80-477318949e9a7100"
+ParentId : ""
+Application : "cms_core_ng"
+MachineName : "LAPTOP-J6LJ01O8"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.7"
+UserName : "ofeli"
+ProcessId : 4688
+ProcessName : "iisexpress"
+----------------------EXCEPTION DETAILS----------------------
+Exception - System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)StackTrace -    at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)Message - The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.Source - Microsoft.AspNetCore.SpaServices.ExtensionsInnerException - ------------------------------------------------------------------

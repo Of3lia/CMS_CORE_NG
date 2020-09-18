@@ -14,3 +14,51 @@ UserName : "ofeli"
 ProcessId : 16044
 ProcessName : "iisexpress"
 ------------------------------------------------------------------
+-------------------------------------------------------------
+Timestap - 17/9/2020 10:38:45 +02:00 | Level - Error |
+-------------------------------------------------------------
+Error : "Attempted to divide by zero."
+StackTrace : "   at CMS_CORE_NG.Program.Main(String[] args) in E:\Visual_Studio_Projects\CMS_CORE_NG\CMS_CORE_NG\Program.cs:line 29"
+InnerException : null
+Source : "CMS_CORE_NG"
+Application : "cms_core_ng"
+MachineName : "LAPTOP-J6LJ01O8"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.7"
+UserName : "ofeli"
+ProcessId : 15168
+ProcessName : "iisexpress"
+------------------------------------------------------------------
+-------------------------------------------------------------
+Timestap - 17/9/2020 10:43:49 +02:00 | Level - Error |
+-------------------------------------------------------------
+Error : "Attempted to divide by zero."
+StackTrace : "   at CMS_CORE_NG.Program.Main(String[] args) in E:\Visual_Studio_Projects\CMS_CORE_NG\CMS_CORE_NG\Program.cs:line 29"
+InnerException : null
+Source : "CMS_CORE_NG"
+Application : "cms_core_ng"
+MachineName : "LAPTOP-J6LJ01O8"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 6.2.9200.0"
+Version : "3.1.7"
+UserName : "ofeli"
+ProcessId : 7016
+ProcessName : "CMS_CORE_NG"
+------------------------------------------------------------------
+-------------------------------------------------------------
+Timestap - 17/9/2020 10:50:56 +02:00 | Level - Error |
+-------------------------------------------------------------
+Error : "Attempted to divide by zero."
+StackTrace : "   at CMS_CORE_NG.Program.Main(String[] args) in E:\Visual_Studio_Projects\CMS_CORE_NG\CMS_CORE_NG\Program.cs:line 30"
+InnerException : null
+Source : "CMS_CORE_NG"
+Application : "cms_core_ng"
+MachineName : "LAPTOP-J6LJ01O8"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.7"
+UserName : "ofeli"
+ProcessId : 1060
+ProcessName : "iisexpress"
+------------------------------------------------------------------
