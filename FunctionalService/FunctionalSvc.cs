@@ -71,14 +71,14 @@ namespace FunctionalService
             {
                 var appUser = new ApplicationUser
                 {
-                    Email = _adminUserOptions.Email,
-                    UserName = _adminUserOptions.Username,
+                    Email = _appUserOptions.Email,
+                    UserName = _appUserOptions.Username,
                     EmailConfirmed = true,
                     ProfilePic = GetDefaultProfilePic(), // TODO
                     PhoneNumber = "1234567890",
                     PhoneNumberConfirmed = true,
-                    Firstname = _adminUserOptions.Firstname,
-                    Lastname = _adminUserOptions.Lastname,
+                    Firstname = _appUserOptions.Firstname,
+                    Lastname = _appUserOptions.Lastname,
                     UserRole = "Administrator",
                     IsActive = true,
                     UserAddresses = new List<AddressModel>

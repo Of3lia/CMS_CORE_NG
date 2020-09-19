@@ -56,3 +56,252 @@ Exception - System.TimeoutException: The Angular CLI process did not start liste
    at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
 --- End of stack trace from previous location where exception was thrown ---
    at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)Message - The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.Source - Microsoft.AspNetCore.SpaServices.ExtensionsInnerException - ------------------------------------------------------------------
+-------------------------------------------------------------
+Timestap - 18/9/2020 16:58:47 +02:00 | Level - Warning |
+-------------------------------------------------------------
+userId : "5cfb2498-6b42-41d1-9bd4-8c6ae59d4ac5"
+errors : "DuplicateUserName;DuplicateEmail"
+EventId : { Id: 13 }
+SourceContext : "Microsoft.AspNetCore.Identity.UserManager"
+Application : "cms_core_ng"
+MachineName : "LAPTOP-J6LJ01O8"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.7"
+UserName : "ofeli"
+ProcessId : 12468
+ProcessName : "iisexpress"
+------------------------------------------------------------------
+-------------------------------------------------------------
+Timestap - 18/9/2020 16:58:48 +02:00 | Level - Error |
+-------------------------------------------------------------
+Error : "Microsoft.AspNetCore.Identity.IdentityError,Microsoft.AspNetCore.Identity.IdentityError"
+Application : "cms_core_ng"
+MachineName : "LAPTOP-J6LJ01O8"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.7"
+UserName : "ofeli"
+ProcessId : 12468
+ProcessName : "iisexpress"
+------------------------------------------------------------------
+-------------------------------------------------------------
+Timestap - 18/9/2020 17:00:48 +02:00 | Level - Error |
+-------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "8000003e-0002-fe00-b63f-84710c7967bb"
+RequestPath : "/"
+SpanId : "|de7e813c-4531d22a8e23c6c1."
+TraceId : "de7e813c-4531d22a8e23c6c1"
+ParentId : ""
+Application : "cms_core_ng"
+MachineName : "LAPTOP-J6LJ01O8"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.7"
+UserName : "ofeli"
+ProcessId : 12468
+ProcessName : "iisexpress"
+----------------------EXCEPTION DETAILS----------------------
+Exception - System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)StackTrace -    at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)Message - The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.Source - Microsoft.AspNetCore.SpaServices.ExtensionsInnerException - ------------------------------------------------------------------
+-------------------------------------------------------------
+Timestap - 18/9/2020 17:11:05 +02:00 | Level - Warning |
+-------------------------------------------------------------
+userId : "f6099e8c-1054-48ae-9217-6100f003669a"
+errors : "DuplicateUserName;DuplicateEmail"
+EventId : { Id: 13 }
+SourceContext : "Microsoft.AspNetCore.Identity.UserManager"
+Application : "cms_core_ng"
+MachineName : "LAPTOP-J6LJ01O8"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.7"
+UserName : "ofeli"
+ProcessId : 5288
+ProcessName : "iisexpress"
+------------------------------------------------------------------
+-------------------------------------------------------------
+Timestap - 18/9/2020 17:11:05 +02:00 | Level - Error |
+-------------------------------------------------------------
+Error : "Microsoft.AspNetCore.Identity.IdentityError,Microsoft.AspNetCore.Identity.IdentityError"
+Application : "cms_core_ng"
+MachineName : "LAPTOP-J6LJ01O8"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.7"
+UserName : "ofeli"
+ProcessId : 5288
+ProcessName : "iisexpress"
+------------------------------------------------------------------
+-------------------------------------------------------------
+Timestap - 18/9/2020 18:12:20 +02:00 | Level - Warning |
+-------------------------------------------------------------
+userId : "721abcc6-5ee5-4909-9fee-c0e142cbc66b"
+errors : "DuplicateUserName;DuplicateEmail"
+EventId : { Id: 13 }
+SourceContext : "Microsoft.AspNetCore.Identity.UserManager"
+Application : "cms_core_ng"
+MachineName : "LAPTOP-J6LJ01O8"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.7"
+UserName : "ofeli"
+ProcessId : 17308
+ProcessName : "iisexpress"
+------------------------------------------------------------------
+-------------------------------------------------------------
+Timestap - 18/9/2020 18:12:20 +02:00 | Level - Error |
+-------------------------------------------------------------
+Error : "Microsoft.AspNetCore.Identity.IdentityError,Microsoft.AspNetCore.Identity.IdentityError"
+Application : "cms_core_ng"
+MachineName : "LAPTOP-J6LJ01O8"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.7"
+UserName : "ofeli"
+ProcessId : 17308
+ProcessName : "iisexpress"
+------------------------------------------------------------------
+-------------------------------------------------------------
+Timestap - 18/9/2020 18:14:21 +02:00 | Level - Error |
+-------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "80000056-0001-ff00-b63f-84710c7967bb"
+RequestPath : "/"
+SpanId : "|4b2cf7ad-42e6333556a90e41."
+TraceId : "4b2cf7ad-42e6333556a90e41"
+ParentId : ""
+Application : "cms_core_ng"
+MachineName : "LAPTOP-J6LJ01O8"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.7"
+UserName : "ofeli"
+ProcessId : 17308
+ProcessName : "iisexpress"
+----------------------EXCEPTION DETAILS----------------------
+Exception - System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)StackTrace -    at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)Message - The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.Source - Microsoft.AspNetCore.SpaServices.ExtensionsInnerException - ------------------------------------------------------------------
+-------------------------------------------------------------
+Timestap - 18/9/2020 20:01:18 +02:00 | Level - Error |
+-------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'password')"
+StackTrace : "   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user, String password)
+   at FunctionalService.FunctionalSvc.CreateDefaultAdminUser() in E:\Visual_Studio_Projects\CMS_CORE_NG\FunctionalService\FunctionalSvc.cs:line 49"
+InnerException : null
+Source : "Microsoft.Extensions.Identity.Core"
+Application : "cms_core_ng"
+MachineName : "LAPTOP-J6LJ01O8"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.7"
+UserName : "ofeli"
+ProcessId : 14200
+ProcessName : "iisexpress"
+------------------------------------------------------------------
+-------------------------------------------------------------
+Timestap - 18/9/2020 20:01:18 +02:00 | Level - Warning |
+-------------------------------------------------------------
+userId : "20b7de48-7165-443d-aebd-f995d15e091e"
+errors : "InvalidUserName;InvalidEmail"
+EventId : { Id: 13 }
+SourceContext : "Microsoft.AspNetCore.Identity.UserManager"
+Application : "cms_core_ng"
+MachineName : "LAPTOP-J6LJ01O8"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.7"
+UserName : "ofeli"
+ProcessId : 14200
+ProcessName : "iisexpress"
+------------------------------------------------------------------
+-------------------------------------------------------------
+Timestap - 18/9/2020 20:01:18 +02:00 | Level - Error |
+-------------------------------------------------------------
+Error : "Microsoft.AspNetCore.Identity.IdentityError,Microsoft.AspNetCore.Identity.IdentityError"
+Application : "cms_core_ng"
+MachineName : "LAPTOP-J6LJ01O8"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.7"
+UserName : "ofeli"
+ProcessId : 14200
+ProcessName : "iisexpress"
+------------------------------------------------------------------
+-------------------------------------------------------------
+Timestap - 18/9/2020 20:03:19 +02:00 | Level - Error |
+-------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "80000002-0003-fb00-b63f-84710c7967bb"
+RequestPath : "/"
+SpanId : "|d78ff690-4d361fe40e0a2a88."
+TraceId : "d78ff690-4d361fe40e0a2a88"
+ParentId : ""
+Application : "cms_core_ng"
+MachineName : "LAPTOP-J6LJ01O8"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.7"
+UserName : "ofeli"
+ProcessId : 14200
+ProcessName : "iisexpress"
+----------------------EXCEPTION DETAILS----------------------
+Exception - System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)StackTrace -    at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)Message - The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.Source - Microsoft.AspNetCore.SpaServices.ExtensionsInnerException - ------------------------------------------------------------------
+-------------------------------------------------------------
+Timestap - 18/9/2020 20:05:23 +02:00 | Level - Error |
+-------------------------------------------------------------
+EventId : { Id: 1, Name: "UnhandledException" }
+SourceContext : "Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware"
+RequestId : "8000002c-0002-ff00-b63f-84710c7967bb"
+RequestPath : "/"
+SpanId : "|d78ff691-4d361fe40e0a2a88."
+TraceId : "d78ff691-4d361fe40e0a2a88"
+ParentId : ""
+Application : "cms_core_ng"
+MachineName : "LAPTOP-J6LJ01O8"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.7"
+UserName : "ofeli"
+ProcessId : 14200
+ProcessName : "iisexpress"
+----------------------EXCEPTION DETAILS----------------------
+Exception - System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)StackTrace -    at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)Message - The Angular CLI process did not start listening for requests within the timeout period of 0 seconds. Check the log output for error information.Source - Microsoft.AspNetCore.SpaServices.ExtensionsInnerException - ------------------------------------------------------------------
